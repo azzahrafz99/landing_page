@@ -17,6 +17,13 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: 'index.html'
     }),
+    new HtmlWebpackPartialsPlugin([
+      {
+        path: path.join(__dirname, './partials/navbar.html'),
+        priority: 'high',
+        location: 'head'
+      }
+    ])
   ],
   module: {
     rules: [

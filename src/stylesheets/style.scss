@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;700;800&display=swap');
+
 @import 'base/variables';
 
 // external library
@@ -7,6 +10,8 @@ $fa-font-path: '~font-awesome/fonts/';
 
 // Base
 @import 'base/core';
-@import 'base/fonts';
 @import 'base/helpers';
 @import 'base/typography';
+
+// Components
+@import 'components/navbar';
