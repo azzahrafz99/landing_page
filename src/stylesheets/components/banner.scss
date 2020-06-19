@@ -1,0 +1,15 @@
+#banner {
+  margin-top: 150px;
+  padding: 0 50px;
+
+  .download-links {
+    margin-top: 30px;
+
+    .download-link {
+      i {
+        font-size: 20px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
