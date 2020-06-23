@@ -1,14 +1,35 @@
 #banner {
-  margin-top: 150px;
   padding: 0 50px;
 
-  .download-links {
-    margin-top: 30px;
+  .description {
+    margin-top: 12%;
 
-    .download-link {
-      i {
-        font-size: 20px;
-        margin-right: 10px;
+    .download-links {
+      margin-top: 30px;
+
+      .download-link {
+        i {
+          font-size: 20px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  .products {
+    margin-top: 6%;
+
+    .product {
+      &__ios {
+        left: 24%;
+        position: absolute;
+        width: 34%;
+      }
+
+      &__android {
+        margin-left: 52%;
+        margin-top: 6%;
+        width: 28%;
       }
     }
   }
