@@ -1,8 +1,13 @@
 #banner {
-  padding: 0 50px;
+  margin-top: 50px;
+  padding: 0 80px;
 
-  .description {
+  .intro {
     margin-top: 12%;
+
+    p.description {
+      width: 75%;
+    }
 
     .download-links {
       margin-top: 30px;
@@ -21,13 +26,13 @@
 
     .product {
       &__ios {
-        left: 24%;
+        left: 20%;
         position: absolute;
         width: 34%;
       }
 
       &__android {
-        margin-left: 52%;
+        margin-left: 50%;
         margin-top: 6%;
         width: 28%;
       }

@@ -1,0 +1,44 @@
+#features {
+  margin: 175px 0;
+
+  .row.feature-list {
+    margin-top: 60px;
+    padding: 0 80px;
+
+    .feature {
+      margin-bottom: 30px;
+
+      img.icon {
+        width: 40px;
+      }
+
+      p.title {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 15px 0;
+      }
+
+      p.description {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+.background {
+  float: left;
+  padding: 10px 15px;
+  position: relative;
+
+	&:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 114px;
+    height: 6000px;
+    background: $light-green-two;
+    -webkit-transform: skew(0, -12deg);
+    transform: skew(0, -12deg);
+	}
+}
