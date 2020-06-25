@@ -1,6 +1,7 @@
 #banner {
-  margin-top: 50px;
-  padding: 0 80px;
+  margin: 100px auto;
+  max-width: 1400px;
+  padding: 0 50px;
 
   .intro {
     margin-top: 12%;
@@ -26,15 +27,15 @@
 
     .product {
       &__ios {
-        left: 20%;
+        left: 14%;
         position: absolute;
-        width: 34%;
+        width: 35%;
       }
 
       &__android {
-        margin-left: 50%;
-        margin-top: 6%;
-        width: 28%;
+        margin-left: 44%;
+        margin-top: 5%;
+        width: 30%;
       }
     }
   }
