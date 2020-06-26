@@ -1,7 +1,7 @@
 #pricing {
   background-color: white;
   margin: auto;
-  padding: 100px 80px;
+  padding: 80px;
 
   .pricing-list {
     justify-content: center;
@@ -11,6 +11,7 @@
 
     .card {
       &__price-detail {
+        margin-bottom: 30px;
         padding: 28px 0;
 
         .card-header {
@@ -45,5 +46,11 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 768px) {
+  #pricing {
+    margin-top: 230px;
   }
 }

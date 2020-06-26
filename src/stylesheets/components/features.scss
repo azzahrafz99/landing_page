@@ -58,6 +58,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    height: 100%;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -95,11 +96,42 @@
   }
 
   &__content {
+    left: 5%;
     margin: auto;
-    right: 5%;
+    z-index: 1;
 
     .card {
       padding: 50px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .video {
+    height: 450px;
+
+    &__thumbnail {
+      a {
+        border: 8px solid #fff;
+        height: 90px;
+        width: 90px;
+
+        i {
+          font-size: 28px;
+        }
+      }
+    }
+
+    &__content {
+      left: 0 !important;
+      padding: 0;
+      text-align: center;
+  
+      .card {
+        background: none;
+        box-shadow: none;
+        padding: 20px 30px;
+      }
     }
   }
 }
