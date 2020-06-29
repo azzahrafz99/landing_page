@@ -25,7 +25,6 @@ import '../stylesheets/style.scss';
 
     return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
   };
-    
 })(jQuery);
 
 var allMods      = $(".testimony");

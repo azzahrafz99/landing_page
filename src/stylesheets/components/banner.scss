@@ -29,13 +29,14 @@
       &__ios {
         left: 14%;
         position: absolute;
-        width: 35%;
+        width: 40%;
+        z-index: 1;
       }
 
       &__android {
         margin-left: 44%;
         margin-top: 5%;
-        width: 30%;
+        width: 34%;
       }
     }
   }
