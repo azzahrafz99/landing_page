@@ -23,9 +23,12 @@
 
     .title {
       margin: auto 0;
+      padding-bottom: 50px;
     }
-  
-    .customer {
+
+    .testimony {
+      margin-bottom: 30px;
+
       &__name {
         color: $dark-grey-two;
         display: inline;
