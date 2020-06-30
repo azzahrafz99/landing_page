@@ -1,17 +1,6 @@
-.margin-bottom-10 {
-  margin-bottom: 10px;
-}
-
-.text-grey {
-  color: $dark-grey;
-}
-
-.text-dark-green {
-  color: $dark-green;
-}
-
-.margin-0 {
-  margin: 0;
+.already-visible {
+  transform: translateY(0);
+  animation: none;
 }
 
 .come-in {
@@ -21,9 +10,25 @@
 .come-in:nth-child(odd) {
   animation-duration: 0.8s;
 }
-.already-visible {
-  transform: translateY(0);
-  animation: none;
+
+.margin-0 {
+  margin: 0;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.padding-0 {
+  padding: 0;
+}
+
+.text-dark-green {
+  color: $dark-green;
+}
+
+.text-grey {
+  color: $dark-grey;
 }
 
 @keyframes come-in {
