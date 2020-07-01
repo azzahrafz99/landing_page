@@ -1,0 +1,20 @@
+footer {
+  background-color: $light-green-two;
+  margin-top: 100px;
+  padding: 0 120px;
+
+  .about {
+    padding: 100px 0;
+
+    p {
+      font-size: 16px;
+      letter-spacing: 0.4px;
+      margin-top: 25px;
+    }
+  }
+
+  .copyright {
+    border-top: 1px solid $light-green-three;
+    padding: 30px;
+  }
+}

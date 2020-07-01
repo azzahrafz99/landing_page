@@ -22,6 +22,11 @@ module.exports = {
         path: path.join(__dirname, './partials/navbar.html'),
         priority: 'high',
         location: 'head'
+      },
+      {
+        path: path.join(__dirname, './partials/footer.html'),
+        priority: 'low',
+        location: 'footer'
       }
     ])
   ],
