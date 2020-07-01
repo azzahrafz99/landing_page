@@ -1,11 +1,24 @@
 #testimonials {
-  margin: 100px 0 200px 0;
+  margin: 140px 0 100px 0;
 
   .background {
     padding: 80px 0;
+
+    &::after {
+      background: $light-green-two;
+      content: "";
+      height: 75%;
+      margin: 0;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      width: 65%;
+      z-index: -1;
+    }
+
     &::before {
       -webkit-transform: skewY(-12deg);
-      background: #f3fbf9;
+      background: $light-green-two;
       content: "";
       height: 100%;
       margin: 0;
@@ -14,7 +27,7 @@
       top: 0;
       transform: skewY(-12deg);
       width: 65%;
-      z-index: 0;
+      z-index: -1;
     }
   }
 
